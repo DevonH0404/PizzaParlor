@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Order</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 80px; background-color: rgb(255, 85, 85);">Papa's Pizza!</h1>
+        <nav class="navbar">
+            <ul class="header">
+                <li>Home</li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="order">
+        <div class="input">
+            <form>
+                Contact Information
+                <label for="fname">
+                    Name:
+                    <input type="text" id="fname" placeholder="First Name">
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" id="lname" placeholder="Last Name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" id="email" placeholder="example@gmail.com">
+                </label>
+                <label for="food">Choose Order:</label>
+                <select id="food" name="food">
+                    <option value="bbq">BBQ Pizza</option>
+                    <option value="breadbite">Breadbites</option>
+                    <option value="deluxe">Deluxe Pizza</option>
+                    <option value="house">House Salad</option>
+                    <option value="meat">Meat Lover Pizza</option>
+                    <option value="pasta">Pasta</option>
+                    <option value="pizzabread">Pizza bread</option>
+                    <option value="ravioli">Ravioli</option>
+                    <option value="veggie">Veggie Pizza</option>
+                  </select>
+                  <label for="amount">How many:</label>
+                  <select name="amount" id="amount">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+                  <input type="submit">
+            </form>
+        </div>
+        <div class="socials">
+            <div class="testimony" style="background-color: rgb(255, 255, 255, .9); border-style: solid;">
+                <h2>"I've never had pizza so good,
+                    <br> delicious and on time!"</h2>
+                    <p>Sara Banks</p>
+                    <p>7/3/2023</p>
+            </div>
+            <img src="img/twitter.png" alt="twitter" style="width: 200px;">
+            <h2>Follow us on Twitter!</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
